@@ -2,8 +2,8 @@
  * @Author: Hao Liu
  * @Date: 2019-08-08 15:04:50
  * @LastEditors: Hao Liu
- * @LastEditTime: 2019-08-08 15:05:46
- * @Description: Max Stack, Sub-optimal, push O(logn), popMax O(n)
+ * @LastEditTime: 2019-08-08 15:06:40
+ * @Description: Max Stack, Sub-optimal, push/pop O(logn), popMax O(n)
  */
 
 class MaxStack {

@@ -1,7 +1,11 @@
 /*
- *   Copyright (c) 2019 Hao Liu
- *   All rights reserved.
+ * @Author: Hao Liu
+ * @Date: 2019-08-05 21:32:12
+ * @LastEditors: Hao Liu
+ * @LastEditTime: 2019-08-08 14:37:08
+ * @Description: Graph, DFS
  */
+
 
 class Solution {
     public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {

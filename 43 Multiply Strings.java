@@ -2,8 +2,8 @@
  * @Author: Hao Liu
  * @Date: 2019-08-07 23:26:59
  * @LastEditors: Hao Liu
- * @LastEditTime: 2019-08-07 23:27:19
- * @Description: 
+ * @LastEditTime: 2019-08-07 23:32:59
+ * @Description: Multiplication of two big numbers (in String format)
  */
 
 class Solution {

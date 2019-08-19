@@ -2,7 +2,7 @@
  * @Author: Hao Liu
  * @Date: 2019-08-19 12:54:34
  * @LastEditors: Hao Liu
- * @LastEditTime: 2019-08-19 12:54:49
+ * @LastEditTime: 2019-08-19 13:07:06
  * @Description: Backtracking
  */
 
@@ -22,16 +22,12 @@ class Solution {
             ans.add(new String(chArr));
             return;
         }
-
-        if (chArr[i] >= '0' && chArr[i] <= '9') {
+        dfs(ans, chArr, i + 1);
+        if ((chArr[i] >= 'a' && chArr[i] <= 'z') 
+            || (chArr[i] >= 'A' && chArr[i] <= 'Z')) {
+            chArr[i] ^= (1 << 5);
             dfs(ans, chArr, i + 1);
-            return;
+            chArr[i] ^= (1 << 5);
         }
-             
-        chArr[i] = Character.toLowerCase(chArr[i]);
-        dfs(ans, chArr, i + 1);
-            
-        chArr[i] = Character.toUpperCase(chArr[i]);
-        dfs(ans, chArr, i + 1);
     }
 }
